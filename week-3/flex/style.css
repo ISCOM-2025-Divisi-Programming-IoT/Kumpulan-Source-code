@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: blue;
+}
+
+.child-container {
+    display: flex;
+    color: white;
+    gap: 19px;
+    font-family: Arial, sans-serif;
+}

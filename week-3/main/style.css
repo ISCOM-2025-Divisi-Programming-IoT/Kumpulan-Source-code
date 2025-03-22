@@ -1,0 +1,63 @@
+:root {
+    --background: yellow;
+}
+
+body {
+    height: 1600px;
+}
+
+.p1 {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.p2 {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 5px;
+}
+
+.block {
+    border: 1px solid black;
+}
+
+.inline {
+    display: block;
+    border: 1px solid black;
+    height: 100px;
+    background-color: var(--background);
+}
+
+.inb {
+    width: 120px;
+}
+
+.satu, .dua, .tiga {
+    display: flex;
+    justify-content: center;
+    line-height: 140px;
+    border: 1px solid black;
+    width: 240px;
+    height: 140px;
+}
+
+.dua {
+    position: absolute;
+    background-color: green;
+}
+
+.rel {
+    position: relative;
+    width: 500px;
+    height: 140px;
+    border: 1px solid black;
+}
+
+.satu {
+    background-color: red;
+}
+
+.tiga {
+    background-color: blue;
+}
